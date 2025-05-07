@@ -28,8 +28,7 @@ class TwoSum{
         try{
             int[] res=solver.twoSum(nums, target);
             System.out.println(res[0] + " " + res[1]);
-        } catch(IllegalArgumentException e){
-            System.out.println("-1 -1");
+        } catch(IllegalArgumentException e){   
         }
     }
 } 
