@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 class Solution{
     public static boolean isPalindrome(int x){
+    //public boolean isPalindrome(int x){
         if(x<0) return false;
         
         long ans=0;
