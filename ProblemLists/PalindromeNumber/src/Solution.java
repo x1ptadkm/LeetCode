@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Solution{
-    public boolean isPalindrome(int x){
+    public static boolean isPalindrome(int x){
         if(x<0) return false;
         
         long ans=0;
@@ -19,7 +19,8 @@ class Solution{
         Scanner inp=new Scanner(System.in);
         int x=inp.nextInt();
         
-        Solution tester=new Solution();
-        System.out.println(tester.isPalindrome(x));
+        //Solution tester=new Solution();
+        //System.out.println(tester.isPalindrome(x));
+        System.out.println(isPalindrome(x));
     }
 }
