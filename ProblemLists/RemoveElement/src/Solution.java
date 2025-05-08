@@ -23,7 +23,7 @@ class Solution{
         }
         
         Solution tester=new Solution();
-        int newLength = tester.removeElement(nums, val);
+        int newLength= tester.removeElement(nums, val);
         
         System.out.print(newLength);
         System.out.print(", nums = [");
