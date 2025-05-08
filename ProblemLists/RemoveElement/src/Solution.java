@@ -27,7 +27,7 @@ class Solution{
         
         System.out.print(newLength);
         System.out.print(", nums = [");
-        for(int i=0; i < newLength; i++) {
+        for(int i=0; i<newLength; i++){
             System.out.print(nums[i]);
             if (i < newLength - 1) System.out.print(", ");
         }
