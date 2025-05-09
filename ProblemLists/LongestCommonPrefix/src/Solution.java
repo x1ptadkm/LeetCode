@@ -18,8 +18,8 @@ class Solution{
     Solution tester=new Solution();
 
     System.out.print("strs =  ");
-    int n = Integer.parseInt(inp.nextLine());
-    String[] strs = new String[n];
+    int n=Integer.parseInt(inp.nextLine());
+    String[] strs=new String[n];
 
     for (int i = 0; i < n; ++i) {
       System.out.print("Chuỗi thứ " + (i + 1) + ": ");
