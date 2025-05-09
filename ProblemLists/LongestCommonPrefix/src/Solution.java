@@ -24,6 +24,6 @@ class Solution{
     String[] strs=input.split("\\s+");
 
     String prefix=tester.longestCommonPrefix(strs);
-    System.out.println("Tiền tố chung dài nhất là: \"" + prefix + "\"");
+    System.out.println(prefix);
   }
 }
