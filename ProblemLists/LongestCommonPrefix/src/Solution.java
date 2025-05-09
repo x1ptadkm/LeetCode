@@ -19,11 +19,15 @@ class Solution{
 
     System.out.print("strs =  ");
     int n=Integer.parseInt(inp.nextLine());
-    String[] strs=new String[n];
+    String input=inp.nextLine().trim();
 
-    for(int i=0; i<n; ++i) {
-      System.out.print("Chuỗi thứ " + (i + 1) + ": ");
-      strs[i]=inp.nextLine();
+   // Loại bỏ dấu ngoặc và tách chuỗi
+    input=input.replaceAll("^\\[|\\]$", ""); // Xóa [ và ]
+    String[] strs = input.split("\",\\s*\"");
+
+    // Xử lý nếu người dùng nhập dấu " ở đầu/cuối
+    for (int i = 0; i < strs.length; ++i) {
+      strs[i] = strs[i].replaceAll("^\"|\"$", ""); // xóa dấu " nếu còn
     }
 
     String prefix=tester.longestCommonPrefix(strs);
