@@ -19,11 +19,11 @@ public class Solution{
       else
         ans+=roman[s.charAt(i)];
 
-    return ans + roman[s.charAt(s.length() - 1)];
+    return ans+roman[s.charAt(s.length()-1)];
   }
 
-  public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+  public static void main(String[] args){
+    Scanner inp=new Scanner(System.in);
     Solution solution = new Solution();
 
     System.out.print("Nhập số La Mã: ");
