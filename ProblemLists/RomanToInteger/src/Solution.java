@@ -26,8 +26,8 @@ public class Solution{
     Scanner inp=new Scanner(System.in);
     Solution tester=new Solution();
 
-    System.out.print("Nhập số La Mã: ");
-    String input = scanner.nextLine().toUpperCase(); // Viết hoa để tránh lỗi khi người dùng nhập chữ thường
+    System.out.print(": ");
+    String input=inp.nextLine().toUpperCase(); // Viết hoa để tránh lỗi khi người dùng nhập chữ thường
 
     int result = solution.romanToInt(input);
     System.out.println("Giá trị số nguyên là: " + result);
