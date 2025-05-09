@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Solution {
-  public int romanToInt(String s) {
+public class Solution{
+  public int romanToInt(String s){
     int ans = 0;
     int[] roman = new int[128];
 
