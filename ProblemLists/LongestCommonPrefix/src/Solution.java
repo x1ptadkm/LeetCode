@@ -13,9 +13,9 @@ class Solution{
     return strs[0];
   }
 
-  public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    Solution solution = new Solution();
+  public static void main(String[] args){
+    Scanner inp=new Scanner(System.in);
+    Solution tester=new Solution();
 
     System.out.print("Nhập số lượng chuỗi: ");
     int n = Integer.parseInt(scanner.nextLine());
