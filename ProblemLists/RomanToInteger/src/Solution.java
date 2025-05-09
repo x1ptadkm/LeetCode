@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Solution {
   public int romanToInt(String s) {
     int ans = 0;
@@ -21,18 +23,15 @@ public class Solution {
   }
 
   public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
     Solution solution = new Solution();
 
-    String roman1 = "III";
-    String roman2 = "IV";
-    String roman3 = "IX";
-    String roman4 = "LVIII";
-    String roman5 = "MCMXCIV";
+    System.out.print("Nhập số La Mã: ");
+    String input = scanner.nextLine().toUpperCase(); // Viết hoa để tránh lỗi khi người dùng nhập chữ thường
 
-    System.out.println(roman1 + " = " + solution.romanToInt(roman1)); // 3
-    System.out.println(roman2 + " = " + solution.romanToInt(roman2)); // 4
-    System.out.println(roman3 + " = " + solution.romanToInt(roman3)); // 9
-    System.out.println(roman4 + " = " + solution.romanToInt(roman4)); // 58
-    System.out.println(roman5 + " = " + solution.romanToInt(roman5)); // 1994
+    int result = solution.romanToInt(input);
+    System.out.println("Giá trị số nguyên là: " + result);
+
+    scanner.close();
   }
 }
