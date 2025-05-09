@@ -30,6 +30,6 @@ public class Solution{
     String s=inp.nextLine().toUpperCase(); // viết hoa để tránh lỗi khi người dùng nhập chữ thường
 
     int res=tester.romanToInt(s);
-    System.out.println("Giá trị số nguyên là: " + result);
+    System.out.println(res);
   }
 }
