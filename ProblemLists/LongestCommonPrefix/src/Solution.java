@@ -21,14 +21,12 @@ class Solution{
     int n=Integer.parseInt(inp.nextLine());
     String[] strs=new String[n];
 
-    for (int i = 0; i < n; ++i) {
+    for(int i=0; i<n; ++i) {
       System.out.print("Chuỗi thứ " + (i + 1) + ": ");
-      strs[i] = scanner.nextLine();
+      strs[i]=inp.nextLine();
     }
 
-    String prefix = solution.longestCommonPrefix(strs);
-    System.out.println("Tiền tố chung dài nhất là: \"" + prefix + "\"");
-
-    scanner.close();
+    String prefix=tester.longestCommonPrefix(strs);
+    System.out.println("Tiền tố chung dài nhất là: \"" + prefix + "\"");;
   }
 }
