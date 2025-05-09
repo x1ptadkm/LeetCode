@@ -24,7 +24,7 @@ public class Solution{
 
   public static void main(String[] args){
     Scanner inp=new Scanner(System.in);
-    Solution solution = new Solution();
+    Solution tester=new Solution();
 
     System.out.print("Nhập số La Mã: ");
     String input = scanner.nextLine().toUpperCase(); // Viết hoa để tránh lỗi khi người dùng nhập chữ thường
