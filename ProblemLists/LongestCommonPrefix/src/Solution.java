@@ -17,8 +17,8 @@ class Solution{
     Scanner inp=new Scanner(System.in);
     Solution tester=new Solution();
 
-    System.out.print("Nhập số lượng chuỗi: ");
-    int n = Integer.parseInt(scanner.nextLine());
+    System.out.print("strs =  ");
+    int n = Integer.parseInt(inp.nextLine());
     String[] strs = new String[n];
 
     for (int i = 0; i < n; ++i) {
