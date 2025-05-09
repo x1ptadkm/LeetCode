@@ -26,12 +26,10 @@ public class Solution{
     Scanner inp=new Scanner(System.in);
     Solution tester=new Solution();
 
-    System.out.print(": ");
-    String input=inp.nextLine().toUpperCase(); // Viết hoa để tránh lỗi khi người dùng nhập chữ thường
+    System.out.print("s = ");
+    String s=inp.nextLine().toUpperCase(); // viết hoa để tránh lỗi khi người dùng nhập chữ thường
 
-    int result = solution.romanToInt(input);
+    int res=tester.romanToInt(s);
     System.out.println("Giá trị số nguyên là: " + result);
-
-    scanner.close();
   }
 }
